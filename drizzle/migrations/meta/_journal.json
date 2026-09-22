@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790060384899,
+      "tag": "0000_create_portfolio_content_and_messages",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790060421426,
+      "tag": "0001_secure_portfolio_editor",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790060434381,
+      "tag": "0002_allow_public_portfolio_asset_reads",
+      "breakpoints": true
+    }
+  ]
+}
