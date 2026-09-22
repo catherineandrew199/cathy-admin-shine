@@ -15,6 +15,13 @@
       "when": 1790060421426,
       "tag": "0001_secure_portfolio_editor",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790060434381,
+      "tag": "0002_allow_public_portfolio_asset_reads",
+      "breakpoints": true
     }
   ]
 }

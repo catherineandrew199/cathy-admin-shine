@@ -1,0 +1,1 @@
+CREATE POLICY "Portfolio files are publicly readable" ON storage.objects FOR SELECT TO anon, authenticated USING (bucket_id = 'portfolio-assets');
