@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import { ArrowDown, ArrowUpRight, BriefcaseBusiness, CalendarDays, Check, ClipboardCheck, CloudUpload, Mail, MapPin, Menu, Phone, Send, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -59,4 +59,4 @@ function Portfolio() {
     </main><footer className="flex flex-col gap-3 border-t bg-primary px-5 py-7 text-xs text-primary-foreground/60 sm:flex-row sm:justify-between lg:px-8"><p>© 2026 {content.name}</p><a href="/auth" className="hover:text-primary-foreground">Portfolio editor</a></footer>
   </div>;
 }
-function Contact({icon,label,value}:{icon:React.ReactNode;label:string;value:string}) { return <div className="grid grid-cols-[24px_80px_minmax(0,1fr)] items-start gap-3 border-b border-primary-foreground/15 pb-5"><span className="[&_svg]:h-4 [&_svg]:w-4">{icon}</span><span className="text-primary-foreground/55">{label}</span><span className="break-words">{value}</span></div>; }
+function Contact({icon,label,value}:{icon:ReactNode;label:string;value:string}) { return <div className="grid grid-cols-[24px_80px_minmax(0,1fr)] items-start gap-3 border-b border-primary-foreground/15 pb-5"><span className="[&_svg]:h-4 [&_svg]:w-4">{icon}</span><span className="text-primary-foreground/55">{label}</span><span className="break-words">{value}</span></div>; }
