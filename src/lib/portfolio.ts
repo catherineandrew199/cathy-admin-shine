@@ -4,26 +4,7 @@ export type PortfolioContent = {
   name: string; title: string; hero: string; email: string; phone: string; whatsapp: string;
   linkedin: string; location: string; website: string; heroPhoto?: string; aboutPhoto?: string;
   resume?: string; about: string[]; work: Record<string, string>; certificates: Certificate[];
-};
-
-export const defaultContent: PortfolioContent = {
-  name: "Catherine Andrew",
-  title: "Executive Virtual Assistant | Administrative Support",
-  hero: "Helping busy professionals and businesses stay organized, productive, and on top of their day-to-day administrative tasks.",
-  email: "", phone: "", whatsapp: "", linkedin: "", location: "Lagos, Nigeria", website: "",
-  heroPhoto: "", aboutPhoto: "", resume: "",
-  about: [
-    "I am Catherine Andrew, an Executive Virtual Assistant passionate about helping businesses and busy professionals stay organized, efficient, and focused on what matters most.",
-    "I provide reliable administrative support that helps simplify daily operations, manage information, organize schedules, and keep important tasks moving.",
-    "My approach is centered around organization, attention to detail, clear communication, professionalism, and dependable support.",
-    "I am comfortable working with digital tools and remote collaboration platforms, and I continuously develop my skills to provide efficient administrative assistance.",
-  ],
-  work: {},
-  certificates: [
-    { title: "Virtual Assistant Program", issuer: "Vsavvy Academy", date: "", file: "" },
-    { title: "Add Future Certification", issuer: "", date: "", file: "" },
-    { title: "Add Future Certification", issuer: "", date: "", file: "" },
-  ],
+  services: string[][]; tools: string[]; workItems: WorkItem[];
 };
 
 export const services = [
@@ -44,3 +25,26 @@ export const workItems: WorkItem[] = [
   { title: "Customer Support", description: "Support workflows, sample responses, and ticket handling.", tools: "Zendesk & HubSpot" },
   { title: "Administrative Support", description: "Administrative tasks and organized workflow examples.", tools: "Google Workspace & Notion" },
 ];
+
+export const defaultContent: PortfolioContent = {
+  name: "Catherine Andrew",
+  title: "Executive Virtual Assistant | Administrative Support",
+  hero: "Helping busy professionals and businesses stay organized, productive, and on top of their day-to-day administrative tasks.",
+  email: "", phone: "", whatsapp: "", linkedin: "", location: "Lagos, Nigeria", website: "",
+  heroPhoto: "", aboutPhoto: "", resume: "",
+  about: [
+    "I am Catherine Andrew, an Executive Virtual Assistant passionate about helping businesses and busy professionals stay organized, efficient, and focused on what matters most.",
+    "I provide reliable administrative support that helps simplify daily operations, manage information, organize schedules, and keep important tasks moving.",
+    "My approach is centered around organization, attention to detail, clear communication, professionalism, and dependable support.",
+    "I am comfortable working with digital tools and remote collaboration platforms, and I continuously develop my skills to provide efficient administrative assistance.",
+  ],
+  work: {},
+  certificates: [
+    { title: "Virtual Assistant Program", issuer: "Vsavvy Academy", date: "", file: "" },
+    { title: "Add Future Certification", issuer: "", date: "", file: "" },
+    { title: "Add Future Certification", issuer: "", date: "", file: "" },
+  ],
+  services,
+  tools,
+  workItems,
+};
