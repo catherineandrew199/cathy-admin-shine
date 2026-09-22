@@ -4,6 +4,7 @@ export type PortfolioContent = {
   name: string; title: string; hero: string; email: string; phone: string; whatsapp: string;
   linkedin: string; location: string; website: string; heroPhoto?: string; aboutPhoto?: string;
   resume?: string; about: string[]; work: Record<string, string>; certificates: Certificate[];
+  services: string[][]; tools: string[]; workItems: WorkItem[];
 };
 
 export const defaultContent: PortfolioContent = {
@@ -24,6 +25,9 @@ export const defaultContent: PortfolioContent = {
     { title: "Add Future Certification", issuer: "", date: "", file: "" },
     { title: "Add Future Certification", issuer: "", date: "", file: "" },
   ],
+  services,
+  tools,
+  workItems,
 };
 
 export const services = [
