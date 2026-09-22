@@ -7,6 +7,25 @@ export type PortfolioContent = {
   services: string[][]; tools: string[]; workItems: WorkItem[];
 };
 
+export const services = [
+  ["Executive Virtual Assistance", "Administrative support that helps professionals manage their daily workload efficiently."],
+  ["Administrative Support", "Support with routine administrative tasks, documentation, organization, and coordination."],
+  ["Email Management", "Inbox organization, filtering, labeling, prioritization, and maintaining an organized communication workflow."],
+  ["Calendar Management", "Scheduling meetings, organizing appointments, managing calendar events, and helping maintain an efficient schedule."],
+  ["Data Entry & Organization", "Accurate data entry, spreadsheet organization, information management, and maintaining clean digital records."],
+  ["Customer Support", "Professional customer communication through email and chat while maintaining a helpful and respectful customer experience."],
+];
+export const tools = ["Google Workspace", "Google Calendar", "Google Sheets", "Google Forms", "Google Slides", "Trello", "Notion", "HubSpot", "Zendesk", "Canva", "CapCut", "Slack", "Jibble"];
+export const strengths = ["Organization", "Attention to Detail", "Communication", "Reliability", "Time Management", "Adaptability"];
+export const workItems: WorkItem[] = [
+  { title: "Email Management", description: "Inbox organization, filtering, labels, and email management.", tools: "Email & Google Workspace" },
+  { title: "Calendar Management", description: "Scheduling and organized calendar workflows.", tools: "Google Calendar" },
+  { title: "Trello / Task Management", description: "Boards, labels, checklists, and workflow examples.", tools: "Trello" },
+  { title: "Google Sheets & Data Management", description: "Data entry, pivot tables, formatting, filters, and organization.", tools: "Google Sheets" },
+  { title: "Customer Support", description: "Support workflows, sample responses, and ticket handling.", tools: "Zendesk & HubSpot" },
+  { title: "Administrative Support", description: "Administrative tasks and organized workflow examples.", tools: "Google Workspace & Notion" },
+];
+
 export const defaultContent: PortfolioContent = {
   name: "Catherine Andrew",
   title: "Executive Virtual Assistant | Administrative Support",
@@ -29,22 +48,3 @@ export const defaultContent: PortfolioContent = {
   tools,
   workItems,
 };
-
-export const services = [
-  ["Executive Virtual Assistance", "Administrative support that helps professionals manage their daily workload efficiently."],
-  ["Administrative Support", "Support with routine administrative tasks, documentation, organization, and coordination."],
-  ["Email Management", "Inbox organization, filtering, labeling, prioritization, and maintaining an organized communication workflow."],
-  ["Calendar Management", "Scheduling meetings, organizing appointments, managing calendar events, and helping maintain an efficient schedule."],
-  ["Data Entry & Organization", "Accurate data entry, spreadsheet organization, information management, and maintaining clean digital records."],
-  ["Customer Support", "Professional customer communication through email and chat while maintaining a helpful and respectful customer experience."],
-];
-export const tools = ["Google Workspace", "Google Calendar", "Google Sheets", "Google Forms", "Google Slides", "Trello", "Notion", "HubSpot", "Zendesk", "Canva", "CapCut", "Slack", "Jibble"];
-export const strengths = ["Organization", "Attention to Detail", "Communication", "Reliability", "Time Management", "Adaptability"];
-export const workItems: WorkItem[] = [
-  { title: "Email Management", description: "Inbox organization, filtering, labels, and email management.", tools: "Email & Google Workspace" },
-  { title: "Calendar Management", description: "Scheduling and organized calendar workflows.", tools: "Google Calendar" },
-  { title: "Trello / Task Management", description: "Boards, labels, checklists, and workflow examples.", tools: "Trello" },
-  { title: "Google Sheets & Data Management", description: "Data entry, pivot tables, formatting, filters, and organization.", tools: "Google Sheets" },
-  { title: "Customer Support", description: "Support workflows, sample responses, and ticket handling.", tools: "Zendesk & HubSpot" },
-  { title: "Administrative Support", description: "Administrative tasks and organized workflow examples.", tools: "Google Workspace & Notion" },
-];
