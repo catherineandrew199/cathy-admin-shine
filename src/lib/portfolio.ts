@@ -30,7 +30,7 @@ export const defaultContent: PortfolioContent = {
   name: "Catherine Andrew",
   title: "Executive Virtual Assistant | Administrative Support",
   hero: "Helping busy professionals and businesses stay organized, productive, and on top of their day-to-day administrative tasks.",
-  email: "", phone: "", whatsapp: "https://wa.me/2349033630222", linkedin: "https://www.linkedin.com/in/catherine-andrew-193919407", location: "Lagos, Nigeria", website: "",
+  email: "catherineandrew199@gmail.com", phone: "", whatsapp: "https://wa.me/2349033630222", linkedin: "https://www.linkedin.com/in/catherine-andrew-193919407", location: "Lagos, Nigeria", website: "",
   heroPhoto: "", aboutPhoto: "", resume: "",
   about: [
     "I am Catherine Andrew, an Executive Virtual Assistant passionate about helping businesses and busy professionals stay organized, efficient, and focused on what matters most.",
