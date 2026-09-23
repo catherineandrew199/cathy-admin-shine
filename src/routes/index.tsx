@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
-import { ArrowDown, ArrowUpRight, BriefcaseBusiness, Check, ClipboardCheck, CloudUpload, Mail, MapPin, Menu, Phone, Send, X } from "lucide-react";
+import { ArrowDown, ArrowUpRight, BriefcaseBusiness, Check, CloudUpload, Mail, MapPin, Menu, Phone, Send, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
